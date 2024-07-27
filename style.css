@@ -1,0 +1,225 @@
+/* CSS reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* gobal */
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 文字 */
+.fz-0 {
+    font-size: 20px;
+}
+.fz-1 {
+    font-size: 32px;
+}
+.fz-2{
+    font-size: 40px;
+}
+/* margin */
+.m-t-1{
+    margin-top: 8px;
+}
+.m-t-2{
+    margin-top: 12px;
+}
+.m-t-3{
+    margin-top: 16px;
+}
+
+/*  */
+.toparea {
+    font-size: 128px;
+}
+
+.left {
+    margin-top: 160px;
+    margin-left: 312px;
+}
+
+.center {
+    width: 636px;
+    height: 848px;
+    margin-left: 642px;
+}
+
+.right {
+    margin-left: 972px;
+}
+
+.centerarea {
+    background: #EFEFEF;
+    height: 432px;
+}
+
+.centerarea .container {
+    width: 636px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left: 972px;
+    margin-right: 312px
+}
+
+
+.infoarea {
+    margin-top: 40px;
+    width: 636px;
+    margin-left: 312px;
+}
+.infoarea .container{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid #AE0000;
+}
+.tilte{
+    color: #AE0000;
+}
+.year{
+    color: #949494;
+    font-style: italic;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
