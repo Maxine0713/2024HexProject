@@ -146,80 +146,110 @@ body {
     font-style: normal;
 }
 
+*,
+*::before,
+*::after {
+    outline: #000 solid 1px;
+}
+
 /* 文字 */
 .fz-0 {
     font-size: 20px;
 }
+
 .fz-1 {
-    font-size: 32px;
+    font-size: 24px;
 }
-.fz-2{
+
+.fz-2 {
     font-size: 40px;
 }
+
 /* margin */
-.m-t-1{
+.m-t-1 {
     margin-top: 8px;
 }
-.m-t-2{
+
+.m-t-2 {
     margin-top: 12px;
 }
-.m-t-3{
+
+.m-t-3 {
     margin-top: 16px;
 }
 
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.m-r-10 {
+    margin-right: 40px;
+}
+
+.w-50 {
+    width: calc(50% - 12px);
+}
+
+.m-1-a{
+    margin-left: auto;
+}
+.m-t-10{
+    margin-top: 40px;
+}
 /*  */
 .toparea {
     font-size: 128px;
 }
-
-.left {
-    margin-top: 160px;
-    margin-left: 312px;
+.banner-text{
+    font-size: 128px;
+    letter-spacing: 0.12em;
 }
-
-.center {
+.banner-img {
     width: 636px;
     height: 848px;
-    margin-left: 642px;
-}
-
-.right {
-    margin-left: 972px;
+    margin: 0 auto;
 }
 
 .centerarea {
     background: #EFEFEF;
-    height: 432px;
+    padding: 48px 0px;
 }
 
-.centerarea .container {
-    width: 636px;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    margin-left: 972px;
-    margin-right: 312px
+.aboutaera{
+    padding-top: 40px;
 }
-
-
-.infoarea {
-    margin-top: 40px;
-    width: 636px;
-    margin-left: 312px;
-}
-.infoarea .container{
+.about-title {
     margin-top: 40px;
     margin-bottom: 8px;
     border-bottom: 3px solid #AE0000;
-}
-.tilte{
     color: #AE0000;
 }
-.year{
+
+
+.year {
     color: #949494;
     font-style: italic;
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
     color: #000;
+}
+
+
+
+footer {
+    background-color: #000000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.socail-list {
+    text-align: center;
+}
+
+.socail-list li {
+    display: inline-block;
 }
