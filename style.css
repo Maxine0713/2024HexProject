@@ -146,11 +146,12 @@ body {
     font-style: normal;
 }
 
-*,
+/* 檢查用 */
+/* *,
 *::before,
 *::after {
     outline: #000 solid 1px;
-}
+} */
 
 /* 文字 */
 .fz-0 {
